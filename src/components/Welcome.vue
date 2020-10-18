@@ -39,10 +39,7 @@ export default {
 <style lang="scss">
 .welcome {
   max-width: 400px;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // margin-top: 50px;
 
   h2 {
     font-size: 3em;
@@ -50,6 +47,12 @@ export default {
 
   button {
     margin: 30px auto;
+  }
+}
+
+@media (max-width: 270px) {
+  h2 {
+    font-size: 2.2em !important;
   }
 }
 </style>
